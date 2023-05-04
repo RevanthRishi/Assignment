@@ -1,0 +1,36 @@
+
+.header{
+    position: sticky;
+    top: 0;
+    padding: .5rem;
+    background-color: tomato;
+    margin-bottom: 20px;
+    h2{
+        color:white;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 400;
+        text-decoration: underline;
+    }
+}
+
+.search{
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 72px;
+   
+}
+input{
+    line-height: 2.14;
+    width: 300px;
+    margin: 0px 0px 20px 100px;
+    outline: transparent;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    padding-left:15px
+}
+.sticky{
+position: relative;
+}
